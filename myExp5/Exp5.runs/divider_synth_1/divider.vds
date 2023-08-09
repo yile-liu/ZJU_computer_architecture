@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Mar  6 15:46:15 2023
+# Process ID: 3384
+# Current directory: F:/myExp5/Exp5.runs/divider_synth_1
+# Command line: vivado.exe -log divider.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source divider.tcl
+# Log file: F:/myExp5/Exp5.runs/divider_synth_1/divider.vds
+# Journal file: F:/myExp5/Exp5.runs/divider_synth_1\vivado.jou
+# Running On: X1Carbon-Gen10, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 12, Host memory: 34044 MB
+#-----------------------------------------------------------
+source divider.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 388.207 ; gain = 62.172
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: divider
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry 332b1f59e9fd36f5 to dir: F:/myExp5/Exp5.runs/divider_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/myExp5/Exp5.cache/ip/2022.2/3/3/332b1f59e9fd36f5/divider.dcp to F:/myExp5/Exp5.runs/divider_synth_1/divider.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/myExp5/Exp5.cache/ip/2022.2/3/3/332b1f59e9fd36f5/divider_sim_netlist.v to F:/myExp5/Exp5.runs/divider_synth_1/divider_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/myExp5/Exp5.cache/ip/2022.2/3/3/332b1f59e9fd36f5/divider_sim_netlist.vhdl to F:/myExp5/Exp5.runs/divider_synth_1/divider_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/myExp5/Exp5.cache/ip/2022.2/3/3/332b1f59e9fd36f5/divider_stub.v to F:/myExp5/Exp5.runs/divider_synth_1/divider_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/myExp5/Exp5.cache/ip/2022.2/3/3/332b1f59e9fd36f5/divider_stub.vhdl to F:/myExp5/Exp5.runs/divider_synth_1/divider_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP divider, cache-ID = 332b1f59e9fd36f5.
+config_ip_cache: Time (s): cpu = 00:00:03 ; elapsed = 00:00:07 . Memory (MB): peak = 422.305 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  6 15:46:35 2023...

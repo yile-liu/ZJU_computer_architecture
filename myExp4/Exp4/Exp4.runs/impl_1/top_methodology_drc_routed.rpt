@@ -1,0 +1,687 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+-----------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2022.2 (win64) Build 3671981 Fri Oct 14 05:00:03 MDT 2022
+| Date         : Fri Nov 11 14:34:05 2022
+| Host         : E14-Windows running 64-bit major release  (build 9200)
+| Command      : report_methodology -file top_methodology_drc_routed.rpt -pb top_methodology_drc_routed.pb -rpx top_methodology_drc_routed.rpx
+| Design       : top
+| Device       : xc7k325tffg676-2L
+| Speed File   : -2L
+| Design State : Fully Routed
+-----------------------------------------------------------------------------------------------------------------------------------------------
+
+Report Methodology
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+             Max violations: <unlimited>
+             Violations found: 130
++-----------+------------------+--------------------------------+------------+
+| Rule      | Severity         | Description                    | Violations |
++-----------+------------------+--------------------------------+------------+
+| TIMING-14 | Critical Warning | LUT on the clock tree          | 2          |
+| TIMING-20 | Warning          | Non-clocked latch              | 127        |
+| LATCH-1   | Advisory         | Existing latches in the design | 1          |
++-----------+------------------+--------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+TIMING-14#1 Critical Warning
+LUT on the clock tree  
+The LUT BTN_SCAN/FSM_sequential_state[2]_i_2 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+TIMING-14#2 Critical Warning
+LUT on the clock tree  
+The LUT BTN_SCAN/n_0_30978_BUFG_inst_i_1 has been found on the clock tree. Run opt_design to optimize the clock trees, then re-run report_methodology. If LUT(s) are still present in the clock trees, modify the RTL or the synthesis options accordingly to move the clock gating logic to dedicated clock enable resources. Keep in mind that post-opt_design database cannot be used for pin-planning tasks
+Related violations: <none>
+
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch core/CMU/FSM_sequential_next_state_reg[0] cannot be properly analyzed as its control pin core/CMU/FSM_sequential_next_state_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch core/CMU/FSM_sequential_next_state_reg[1] cannot be properly analyzed as its control pin core/CMU/FSM_sequential_next_state_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch core/CMU/FSM_sequential_next_state_reg[2] cannot be properly analyzed as its control pin core/CMU/FSM_sequential_next_state_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#4 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[0] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#5 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[10] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#6 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[11] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#7 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[12] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#8 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[13] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#9 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[14] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#10 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[15] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#11 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[16] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#12 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[17] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#13 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[18] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#14 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[19] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#15 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[1] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#16 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[20] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#17 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[21] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#18 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[22] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#19 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[23] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#20 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[24] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#21 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[25] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#22 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[26] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#23 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[27] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#24 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[28] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#25 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[29] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#26 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[2] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#27 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[30] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#28 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[31] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#29 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[3] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#30 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#31 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#32 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__0 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#33 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__1 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__1/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#34 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__10 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__10/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#35 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__11 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__11/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#36 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__12 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__12/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#37 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__13 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__13/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#38 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__14 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__14/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#39 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__15 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__15/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#40 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__16 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__16/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#41 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__17 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__17/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#42 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__2 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__2/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#43 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__3 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__3/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#44 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__4 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__4/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#45 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__5 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__5/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#46 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__6 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__6/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#47 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__7 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__7/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#48 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__8 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__8/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#49 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[4]_rep__9 cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[4]_rep__9/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#50 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[5] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#51 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[6] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#52 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[7] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#53 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[8] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#54 Warning
+Non-clocked latch  
+The latch core/CMU/cache_addr_reg[9] cannot be properly analyzed as its control pin core/CMU/cache_addr_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#55 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[0] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#56 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[0]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[0]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#57 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[10] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#58 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[10]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[10]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#59 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[11] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#60 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[11]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[11]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#61 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[12] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#62 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[12]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[12]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#63 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[13] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[13]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#64 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[13]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[13]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#65 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[14] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[14]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#66 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[14]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[14]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#67 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[15] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[15]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#68 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[15]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[15]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#69 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[16] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[16]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#70 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[17] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[17]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#71 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[18] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[18]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#72 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[19] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[19]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#73 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[1] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#74 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[1]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[1]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#75 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[20] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[20]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#76 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[21] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[21]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#77 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[22] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[22]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#78 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[23] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[23]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#79 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[24] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[24]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#80 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[24]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[24]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#81 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[25] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[25]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#82 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[26] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[26]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#83 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[26]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[26]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#84 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[27] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[27]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#85 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[28] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[28]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#86 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[29] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[29]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#87 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[2] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#88 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[2]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[2]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#89 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[30] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[30]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#90 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[31] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[31]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#91 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[3] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#92 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[3]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[3]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#93 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[4] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#94 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[4]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[4]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#95 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[4]_rep__0 cannot be properly analyzed as its control pin core/CMU/cache_din_reg[4]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#96 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[5] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#97 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[5]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[5]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#98 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[6] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#99 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[6]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[6]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#100 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[7] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#101 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[7]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[7]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#102 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[7]_rep__0 cannot be properly analyzed as its control pin core/CMU/cache_din_reg[7]_rep__0/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#103 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[8] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#104 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[8]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[8]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#105 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[9] cannot be properly analyzed as its control pin core/CMU/cache_din_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#106 Warning
+Non-clocked latch  
+The latch core/CMU/cache_din_reg[9]_rep cannot be properly analyzed as its control pin core/CMU/cache_din_reg[9]_rep/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#107 Warning
+Non-clocked latch  
+The latch core/CMU/cache_edit_reg cannot be properly analyzed as its control pin core/CMU/cache_edit_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#108 Warning
+Non-clocked latch  
+The latch core/CMU/cache_load_reg cannot be properly analyzed as its control pin core/CMU/cache_load_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#109 Warning
+Non-clocked latch  
+The latch core/CMU/cache_store_reg cannot be properly analyzed as its control pin core/CMU/cache_store_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#110 Warning
+Non-clocked latch  
+The latch core/CMU/cache_u_b_h_w_reg[0] cannot be properly analyzed as its control pin core/CMU/cache_u_b_h_w_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#111 Warning
+Non-clocked latch  
+The latch core/CMU/cache_u_b_h_w_reg[1] cannot be properly analyzed as its control pin core/CMU/cache_u_b_h_w_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#112 Warning
+Non-clocked latch  
+The latch core/CMU/cache_u_b_h_w_reg[2] cannot be properly analyzed as its control pin core/CMU/cache_u_b_h_w_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#113 Warning
+Non-clocked latch  
+The latch core/CMU/mem_addr_o_reg[10] cannot be properly analyzed as its control pin core/CMU/mem_addr_o_reg[10]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#114 Warning
+Non-clocked latch  
+The latch core/CMU/mem_addr_o_reg[11] cannot be properly analyzed as its control pin core/CMU/mem_addr_o_reg[11]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#115 Warning
+Non-clocked latch  
+The latch core/CMU/mem_addr_o_reg[12] cannot be properly analyzed as its control pin core/CMU/mem_addr_o_reg[12]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#116 Warning
+Non-clocked latch  
+The latch core/CMU/mem_addr_o_reg[2] cannot be properly analyzed as its control pin core/CMU/mem_addr_o_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#117 Warning
+Non-clocked latch  
+The latch core/CMU/mem_addr_o_reg[3] cannot be properly analyzed as its control pin core/CMU/mem_addr_o_reg[3]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#118 Warning
+Non-clocked latch  
+The latch core/CMU/mem_addr_o_reg[4] cannot be properly analyzed as its control pin core/CMU/mem_addr_o_reg[4]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#119 Warning
+Non-clocked latch  
+The latch core/CMU/mem_addr_o_reg[5] cannot be properly analyzed as its control pin core/CMU/mem_addr_o_reg[5]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#120 Warning
+Non-clocked latch  
+The latch core/CMU/mem_addr_o_reg[6] cannot be properly analyzed as its control pin core/CMU/mem_addr_o_reg[6]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#121 Warning
+Non-clocked latch  
+The latch core/CMU/mem_addr_o_reg[7] cannot be properly analyzed as its control pin core/CMU/mem_addr_o_reg[7]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#122 Warning
+Non-clocked latch  
+The latch core/CMU/mem_addr_o_reg[8] cannot be properly analyzed as its control pin core/CMU/mem_addr_o_reg[8]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#123 Warning
+Non-clocked latch  
+The latch core/CMU/mem_addr_o_reg[9] cannot be properly analyzed as its control pin core/CMU/mem_addr_o_reg[9]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#124 Warning
+Non-clocked latch  
+The latch core/CMU/mem_cs_o_reg cannot be properly analyzed as its control pin core/CMU/mem_cs_o_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#125 Warning
+Non-clocked latch  
+The latch core/CMU/mem_we_o_reg cannot be properly analyzed as its control pin core/CMU/mem_we_o_reg/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#126 Warning
+Non-clocked latch  
+The latch core/CMU/next_word_count_reg[0] cannot be properly analyzed as its control pin core/CMU/next_word_count_reg[0]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#127 Warning
+Non-clocked latch  
+The latch core/CMU/next_word_count_reg[1] cannot be properly analyzed as its control pin core/CMU/next_word_count_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 127 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
+Related violations: <none>
+
+

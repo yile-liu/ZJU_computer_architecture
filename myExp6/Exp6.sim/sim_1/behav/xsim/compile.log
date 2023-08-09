@@ -1,0 +1,302 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/Code2Inst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code2Inst
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/CtrlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CtrlUnit
+WARNING: [VRFC 10-3380] identifier 'use_FU' is used before its declaration [C:/Users/yilel/Desktop/Exp6/code/core/CtrlUnit.v:165]
+WARNING: [VRFC 10-3380] identifier 'use_FU' is used before its declaration [C:/Users/yilel/Desktop/Exp6/code/core/CtrlUnit.v:176]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_jump.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_jump
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/Font816.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FONT8_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/MUX8T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX8T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/REG_IF_IS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_IF_IS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/ROM_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/RV32core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32core
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/VGATEST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA_TESTP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/btn_scan.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module btn_scan
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/clk_diff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_diff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/cmp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/debug_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debug_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/my_clk_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_clk_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/parallel2serial.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module parallel2serial
+WARNING: [VRFC 10-3380] identifier 'DATA_BITS' is used before its declaration [C:/Users/yilel/Desktop/Exp6/code/auxillary/parallel2serial.v:10]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/sim/sim_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/Exp6.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd" into library xbip_utils_v3_0_10
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/axi_utils_v2_0_vh_rfs.vhd" into library axi_utils_v2_0_6
+INFO: [VRFC 10-3107] analyzing entity 'glb_srl_fifo'
+INFO: [VRFC 10-3107] analyzing entity 'glb_ifx_slave'
+INFO: [VRFC 10-3107] analyzing entity 'glb_ifx_master'
+INFO: [VRFC 10-3107] analyzing entity 'axi_slave_2to1'
+INFO: [VRFC 10-3107] analyzing entity 'axi_slave_3to1'
+INFO: [VRFC 10-3107] analyzing entity 'axi_slave_4to1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd" into library xbip_pipe_v3_0_6
+INFO: [VRFC 10-3107] analyzing entity 'xbip_pipe_v3_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_pipe_v3_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd" into library xbip_dsp48_wrapper_v3_0_4
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48a_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48a1_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48e_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48e1_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48e2_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp58e5_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_wrapper_v3_0_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/xbip_dsp48_addsub_v3_0_vh_rfs.vhd" into library xbip_dsp48_addsub_v3_0_6
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_synth'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_v3_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_v3_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd" into library xbip_bram18k_v3_0_6
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_synth'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_v3_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_v3_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/mult_gen_v12_0_vh_rfs.vhd" into library mult_gen_v12_0_16
+INFO: [VRFC 10-3107] analyzing entity 'op_resize'
+INFO: [VRFC 10-3107] analyzing entity 'delay_line'
+INFO: [VRFC 10-3107] analyzing entity 'cc_compare'
+INFO: [VRFC 10-3107] analyzing entity 'luts'
+INFO: [VRFC 10-3107] analyzing entity 'mult18'
+INFO: [VRFC 10-3107] analyzing entity 'dsp'
+INFO: [VRFC 10-3107] analyzing entity 'hybrid'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_dist_mem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_sp_block_mem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_dp_block_mem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_syncmem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_scaled_adder'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_operation'
+INFO: [VRFC 10-3107] analyzing entity 'ccm'
+INFO: [VRFC 10-3107] analyzing entity 'three_input_adder'
+INFO: [VRFC 10-3107] analyzing entity 'multmxn_lut6'
+INFO: [VRFC 10-3107] analyzing entity 'mult_gen_v12_0_16_viv'
+INFO: [VRFC 10-3107] analyzing entity 'mult_gen_v12_0_16'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/floating_point_v7_0_vh_rfs.vhd" into library floating_point_v7_0_18
+INFO: [VRFC 10-3107] analyzing entity 'fdgS'
+INFO: [VRFC 10-3107] analyzing entity 'fdgW'
+INFO: [VRFC 10-3107] analyzing entity 'lutV'
+INFO: [VRFC 10-3107] analyzing entity 'lutS'
+INFO: [VRFC 10-3107] analyzing entity 'lutN'
+INFO: [VRFC 10-3107] analyzing entity 'lutNMuxS'
+INFO: [VRFC 10-3107] analyzing entity 'srl16eS'
+INFO: [VRFC 10-3107] analyzing entity 'delayS'
+INFO: [VRFC 10-3107] analyzing entity 'andW'
+INFO: [VRFC 10-3107] analyzing entity 'orW'
+INFO: [VRFC 10-3107] analyzing entity 'srl16ew'
+INFO: [VRFC 10-3107] analyzing entity 'delayW'
+INFO: [VRFC 10-3107] analyzing entity 'compW'
+INFO: [VRFC 10-3107] analyzing entity 'addSubW'
+INFO: [VRFC 10-3107] analyzing entity 'equalW'
+INFO: [VRFC 10-3107] analyzing entity 'addW'
+INFO: [VRFC 10-3107] analyzing entity 'mult18'
+INFO: [VRFC 10-3107] analyzing entity 'cntrlgen'
+INFO: [VRFC 10-3107] analyzing entity 'cntrlgen2'
+INFO: [VRFC 10-3107] analyzing entity 'ppGenR8'
+INFO: [VRFC 10-3107] analyzing entity 'ppGenR8Msb2'
+INFO: [VRFC 10-3107] analyzing entity 'addSubShGW'
+INFO: [VRFC 10-3107] analyzing entity 'addSubShFW'
+INFO: [VRFC 10-3107] analyzing entity 'vmRoundW'
+INFO: [VRFC 10-3107] analyzing entity 'vmsMultCore'
+INFO: [VRFC 10-3107] analyzing entity 'wideEmbedMult4'
+INFO: [VRFC 10-3107] analyzing entity 'wideEmbedMult16'
+INFO: [VRFC 10-3107] analyzing entity 'wideEmbedMult'
+INFO: [VRFC 10-3107] analyzing entity 'dsp48MultALine'
+INFO: [VRFC 10-3107] analyzing entity 'dsp48Mult'
+INFO: [VRFC 10-3107] analyzing entity 'xMult'
+INFO: [VRFC 10-3107] analyzing entity 'delay'
+INFO: [VRFC 10-3107] analyzing entity 'delay_s'
+INFO: [VRFC 10-3107] analyzing entity 'mux_bus2'
+INFO: [VRFC 10-3107] analyzing entity 'twos_comp'
+INFO: [VRFC 10-3107] analyzing entity 'carry_chain'
+INFO: [VRFC 10-3107] analyzing entity 'mux4'
+INFO: [VRFC 10-3107] analyzing entity 'compare_gt'
+INFO: [VRFC 10-3107] analyzing entity 'compare_eq_im'
+INFO: [VRFC 10-3107] analyzing entity 'compare_ne_im'
+INFO: [VRFC 10-3107] analyzing entity 'compare_eq'
+INFO: [VRFC 10-3107] analyzing entity 'compare'
+INFO: [VRFC 10-3107] analyzing entity 'special_detect'
+INFO: [VRFC 10-3107] analyzing entity 'norm_zero_det'
+INFO: [VRFC 10-3107] analyzing entity 'zero_det_sel'
+INFO: [VRFC 10-3107] analyzing entity 'shift_msb_first'
+INFO: [VRFC 10-3107] analyzing entity 'flt_dec_op'
+INFO: [VRFC 10-3107] analyzing entity 'flt_dec_op_lat'
+INFO: [VRFC 10-3107] analyzing entity 'lead_zero_encode'
+INFO: [VRFC 10-3107] analyzing entity 'lead_zero_encode_shift'
+INFO: [VRFC 10-3107] analyzing entity 'dsp48e1_wrapper'
+INFO: [VRFC 10-3107] analyzing entity 'dsp48e2_wrapper'
+INFO: [VRFC 10-3107] analyzing entity 'addsub_logic'
+INFO: [VRFC 10-3107] analyzing entity 'addsub_dsp'
+INFO: [VRFC 10-3107] analyzing entity 'addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_round_bit'
+INFO: [VRFC 10-3107] analyzing entity 'renorm_and_round_logic'
+INFO: [VRFC 10-3107] analyzing entity 'norm_and_round_dsp48e1_sgl'
+INFO: [VRFC 10-3107] analyzing entity 'norm_and_round_logic'
+INFO: [VRFC 10-3107] analyzing entity 'alignment'
+INFO: [VRFC 10-3107] analyzing entity 'normalize'
+INFO: [VRFC 10-3107] analyzing entity 'align_add_dsp48e1_sgl'
+INFO: [VRFC 10-3107] analyzing entity 'align_add'
+INFO: [VRFC 10-3107] analyzing entity 'multadd'
+INFO: [VRFC 10-3107] analyzing entity 'compare_ge'
+INFO: [VRFC 10-3107] analyzing entity 'fix_to_flt_conv_exp'
+INFO: [VRFC 10-3107] analyzing entity 'fix_to_flt_conv'
+INFO: [VRFC 10-3107] analyzing entity 'flt_to_fix_conv'
+INFO: [VRFC 10-3107] analyzing entity 'flt_to_flt_conv_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_to_flt_conv'
+INFO: [VRFC 10-3107] analyzing entity 'fp_cmp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_sqrt_mant_addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_sqrt_mant'
+INFO: [VRFC 10-3107] analyzing entity 'flt_sqrt_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_sqrt'
+INFO: [VRFC 10-3107] analyzing entity 'flt_div_mant_addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_div_mant'
+INFO: [VRFC 10-3107] analyzing entity 'flt_div_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_div'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_dsp48e1_lat_dbl'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_dsp48e1_sgl'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_dsp48e1_dbl'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_dsp48e2_dbl'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_qq'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_xx'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult'
+INFO: [VRFC 10-3107] analyzing entity 'flt_round_dsp_opt_full'
+INFO: [VRFC 10-3107] analyzing entity 'flt_round_dsp_opt_part'
+INFO: [VRFC 10-3107] analyzing entity 'flt_mult_round'
+INFO: [VRFC 10-3107] analyzing entity 'flt_mult_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_mult'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_logic'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_dsp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_lat_align_add'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_lat_norm'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_lat_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_lat'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_approx'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_nr'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_reduction_calc'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_eval'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_postprocess'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_specialcase'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_recomb'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recipsqrt_dp_m_calc'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_addsub_taylor_fabric'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_addsub_taylor_combiner_fabric'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_single_one_detect'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_inproc'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_L_block_memory'
+INFO: [VRFC 10-3107] analyzing entity 'flt_pt_log_L_block'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_rr_mul_iter'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_rr_mul'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_rr'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_taylor'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_shift_msb_first'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_lead_zero_encode'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_normalize'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_norm'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_rnd'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_specialcase'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_recomb'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_specialcase'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_recomb'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_ccm'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_e2A'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_dp_poly'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_e2zmzm1'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_specialcase'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_round_bit'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_renorm_and_round_logic'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_special_detect'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_add_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_alignment'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_addsub_dsp1'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_addsub_dsp2'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_align_add'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_norm_logic'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_add_logic'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_add'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_mul'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma'
+INFO: [VRFC 10-3107] analyzing entity 'flt_accum_flt_to_fix'
+INFO: [VRFC 10-3107] analyzing entity 'flt_accum_bit_encode'
+INFO: [VRFC 10-3107] analyzing entity 'flt_accum'
+INFO: [VRFC 10-3107] analyzing entity 'floating_point_v7_0_18_viv'
+INFO: [VRFC 10-3107] analyzing entity 'floating_point_v7_0_18'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd" into library xbip_dsp48_mult_v3_0_6
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_mult_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_mult_synth'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_mult_v3_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_mult_v3_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd" into library xbip_dsp48_multadd_v3_0_6
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_multadd_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_multadd_synth'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_multadd_v3_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_multadd_v3_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/div_gen_v5_1_vh_rfs.vhd" into library div_gen_v5_1_17
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_lut6'
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_viv'
+INFO: [VRFC 10-3107] analyzing entity 'c_twos_comp_viv'
+INFO: [VRFC 10-3107] analyzing entity 'cmp2s_v'
+INFO: [VRFC 10-3107] analyzing entity 'addsubreg_v'
+INFO: [VRFC 10-3107] analyzing entity 'dividervdc_v'
+INFO: [VRFC 10-3107] analyzing entity 'div_lutmult'
+INFO: [VRFC 10-3107] analyzing entity 'bip_sdivider_synth'
+INFO: [VRFC 10-3107] analyzing entity 'fixed_to_float'
+INFO: [VRFC 10-3107] analyzing entity 'flow_ctrl'
+INFO: [VRFC 10-3107] analyzing entity 'estimator'
+INFO: [VRFC 10-3107] analyzing entity 'prescaler'
+INFO: [VRFC 10-3107] analyzing entity 'prenormalizer'
+INFO: [VRFC 10-3107] analyzing entity 'iterative_unit'
+INFO: [VRFC 10-3107] analyzing entity 'quot_addsub'
+INFO: [VRFC 10-3107] analyzing entity 'quotient_collector'
+INFO: [VRFC 10-3107] analyzing entity 'hrdiv_viv'
+INFO: [VRFC 10-3107] analyzing entity 'div_gen_synth'
+INFO: [VRFC 10-3107] analyzing entity 'div_gen_v5_1_17_viv'
+INFO: [VRFC 10-3107] analyzing entity 'div_gen_v5_1_17'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.gen/sources_1/ip/divider/sim/divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'divider'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.gen/sources_1/ip/multiplier/sim/multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multiplier'

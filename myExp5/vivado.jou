@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Mon Mar  6 15:44:41 2023
+# Process ID: 15728
+# Current directory: F:/myExp5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15212 F:\myExp5\Exp5.xpr
+# Log file: F:/myExp5/vivado.log
+# Journal file: F:/myExp5\vivado.jou
+# Running On: X1Carbon-Gen10, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 12, Host memory: 34044 MB
+#-----------------------------------------------------------
+start_gui
+open_project F:/myExp5/Exp5.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+reset_run multiplier_synth_1
+reset_run divider_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 16
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {F:/myExp5/Exp5.runs/impl_1/top.bit} [get_hw_devices xc7k325t_0]
+current_hw_device [get_hw_devices xc7k325t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {F:/myExp5/Exp5.runs/impl_1/top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7k325t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7k325t_0]
+set_property PROGRAM.FILE {F:/myExp5/Exp5.runs/impl_1/top.bit} [get_hw_devices xc7k325t_0]
+program_hw_devices [get_hw_devices xc7k325t_0]
+refresh_hw_device [lindex [get_hw_devices xc7k325t_0] 0]
+close_hw_manager

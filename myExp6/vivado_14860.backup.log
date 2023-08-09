@@ -1,0 +1,610 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Thu Mar  2 21:30:20 2023
+# Process ID: 14860
+# Current directory: C:/Users/yilel/Desktop/Exp6
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7228 C:\Users\yilel\Desktop\Exp6\Exp6.xpr
+# Log file: C:/Users/yilel/Desktop/Exp6/vivado.log
+# Journal file: C:/Users/yilel/Desktop/Exp6\vivado.jou
+# Running On: LYLD, OS: Windows, CPU Frequency: 3302 MHz, CPU Physical cores: 4, Host memory: 34192 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/yilel/Desktop/Exp6/Exp6.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.6/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu105:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu105/1.7/board.xml as part xcku040-ffva1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.4/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu116:part0:1.5 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu116/1.5/board.xml as part xcku5p-ffvb676-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:kcu1500:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/kcu1500/1.2/board.xml as part xcku115-flvb2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/2.2/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190/production/3.1/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vck190_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vck190_newl/production/1.0/board.xml as part xcvc1902-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.6/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu108:part0:1.7 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu108/1.7/board.xml as part xcvu095-ffva2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu110:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu110/1.4/board.xml as part xcvu190-flgc2104-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.0/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.3/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu118:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu118/2.4/board.xml as part xcvu9p-flga2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu128:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu128/production/1.0/board.xml as part xcvu37p-fsvh2892-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu129:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu129/production/1.0/board.xml as part xcvu29p-fsga2577-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vcu1525:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vcu1525/1.3/board.xml as part xcvu9p-fsgd2104-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_mpsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_mpsoc/1.0/board.xml as part xczu19eg-ffvd1760-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vermeo_t1_rfsoc:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vermeo_t1_rfsoc/1.0/board.xml as part xczu21dr-ffvd1156-2l-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:2.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/2.2/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180:part0:3.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180/production/3.1/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vmk180_newl:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vmk180_newl/production/1.0/board.xml as part xcvm1802-vsva2197-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/production/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk180/es/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.3/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu102:part0:3.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu102/3.4/board.xml as part xczu9eg-ffvb1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu104:part0:1.1 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu104/1.1/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.4/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.5 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.5/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu106:part0:2.6 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu106/2.6/board.xml as part xczu7ev-ffvc1156-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.2 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.2/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.3 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.3/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu111:part0:1.4 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu111/1.4/board.xml as part xczu28dr-ffvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1275:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1275/1.0/board.xml as part xczu29dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu1285:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu1285/1.0/board.xml as part xczu39dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208/production/2.0/board.xml as part xczu48dr-fsvg1517-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216/production/2.0/board.xml as part xczu49dr-ffvf1760-2-e specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+INFO: [Project 1-313] Project file moved from 'E:/Vivado ProjectFiles/Exp6' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'divider' is locked:
+* IP definition 'Divider Generator (5.1)' for IP 'divider' (customized with software release 2020.2) has a different revision in the IP Catalog.
+WARNING: [IP_Flow 19-2162] IP 'multiplier' is locked:
+* IP definition 'Multiplier (12.0)' for IP 'multiplier' (customized with software release 2020.2) has a different revision in the IP Catalog.
+open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1148.793 ; gain = 352.457
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'sim_top'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+WARNING: [Vivado 12-13277] Compiled library path does not exist: ''
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/yilel/Desktop/Exp6/Exp6.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-13660] Precompiled IP simulation library mode is enabled (default). The design IP libraries will be referenced from the compiled library path. Please note that if the precompiled version of the library is not found from the path or the IP is in locked state, then the library source files for these IPs will be compiled locally as part of the compile order.
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'C:/Xilinx/Vivado/2022.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2022.2/data/xsim/xsim.ini' copied to run dir:'C:/Users/yilel/Desktop/Exp6/Exp6.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-20] The project contains locked or custom IPs. The pre-compiled version of these IPs will not be referenced and the sources from these IP libraries will be compiled locally.
+INFO: [SIM-utils-54] Inspecting design source files for 'sim_top' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/yilel/Desktop/Exp6/Exp6.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj sim_top_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/Code2Inst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code2Inst
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/CtrlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CtrlUnit
+WARNING: [VRFC 10-3380] identifier 'use_FU' is used before its declaration [C:/Users/yilel/Desktop/Exp6/code/core/CtrlUnit.v:165]
+WARNING: [VRFC 10-3380] identifier 'use_FU' is used before its declaration [C:/Users/yilel/Desktop/Exp6/code/core/CtrlUnit.v:176]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_jump.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_jump
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/Font816.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FONT8_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/MUX8T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX8T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/REG_IF_IS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_IF_IS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/ROM_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/RV32core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32core
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/VGATEST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA_TESTP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/btn_scan.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module btn_scan
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/clk_diff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_diff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/cmp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/debug_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debug_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/my_clk_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_clk_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/parallel2serial.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module parallel2serial
+WARNING: [VRFC 10-3380] identifier 'DATA_BITS' is used before its declaration [C:/Users/yilel/Desktop/Exp6/code/auxillary/parallel2serial.v:10]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/sim/sim_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/Exp6.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj sim_top_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd" into library xbip_utils_v3_0_10
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/axi_utils_v2_0_vh_rfs.vhd" into library axi_utils_v2_0_6
+INFO: [VRFC 10-3107] analyzing entity 'glb_srl_fifo'
+INFO: [VRFC 10-3107] analyzing entity 'glb_ifx_slave'
+INFO: [VRFC 10-3107] analyzing entity 'glb_ifx_master'
+INFO: [VRFC 10-3107] analyzing entity 'axi_slave_2to1'
+INFO: [VRFC 10-3107] analyzing entity 'axi_slave_3to1'
+INFO: [VRFC 10-3107] analyzing entity 'axi_slave_4to1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd" into library xbip_pipe_v3_0_6
+INFO: [VRFC 10-3107] analyzing entity 'xbip_pipe_v3_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_pipe_v3_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd" into library xbip_dsp48_wrapper_v3_0_4
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48a_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48a1_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48e_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48e1_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48e2_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp58e5_wrapper_v3_0'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_wrapper_v3_0_4'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/xbip_dsp48_addsub_v3_0_vh_rfs.vhd" into library xbip_dsp48_addsub_v3_0_6
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_synth'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_v3_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_addsub_v3_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd" into library xbip_bram18k_v3_0_6
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_synth'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_v3_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_bram18k_v3_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/mult_gen_v12_0_vh_rfs.vhd" into library mult_gen_v12_0_16
+INFO: [VRFC 10-3107] analyzing entity 'op_resize'
+INFO: [VRFC 10-3107] analyzing entity 'delay_line'
+INFO: [VRFC 10-3107] analyzing entity 'cc_compare'
+INFO: [VRFC 10-3107] analyzing entity 'luts'
+INFO: [VRFC 10-3107] analyzing entity 'mult18'
+INFO: [VRFC 10-3107] analyzing entity 'dsp'
+INFO: [VRFC 10-3107] analyzing entity 'hybrid'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_dist_mem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_sp_block_mem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_dp_block_mem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_syncmem'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_scaled_adder'
+INFO: [VRFC 10-3107] analyzing entity 'ccm_operation'
+INFO: [VRFC 10-3107] analyzing entity 'ccm'
+INFO: [VRFC 10-3107] analyzing entity 'three_input_adder'
+INFO: [VRFC 10-3107] analyzing entity 'multmxn_lut6'
+INFO: [VRFC 10-3107] analyzing entity 'mult_gen_v12_0_16_viv'
+INFO: [VRFC 10-3107] analyzing entity 'mult_gen_v12_0_16'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/floating_point_v7_0_vh_rfs.vhd" into library floating_point_v7_0_18
+INFO: [VRFC 10-3107] analyzing entity 'fdgS'
+INFO: [VRFC 10-3107] analyzing entity 'fdgW'
+INFO: [VRFC 10-3107] analyzing entity 'lutV'
+INFO: [VRFC 10-3107] analyzing entity 'lutS'
+INFO: [VRFC 10-3107] analyzing entity 'lutN'
+INFO: [VRFC 10-3107] analyzing entity 'lutNMuxS'
+INFO: [VRFC 10-3107] analyzing entity 'srl16eS'
+INFO: [VRFC 10-3107] analyzing entity 'delayS'
+INFO: [VRFC 10-3107] analyzing entity 'andW'
+INFO: [VRFC 10-3107] analyzing entity 'orW'
+INFO: [VRFC 10-3107] analyzing entity 'srl16ew'
+INFO: [VRFC 10-3107] analyzing entity 'delayW'
+INFO: [VRFC 10-3107] analyzing entity 'compW'
+INFO: [VRFC 10-3107] analyzing entity 'addSubW'
+INFO: [VRFC 10-3107] analyzing entity 'equalW'
+INFO: [VRFC 10-3107] analyzing entity 'addW'
+INFO: [VRFC 10-3107] analyzing entity 'mult18'
+INFO: [VRFC 10-3107] analyzing entity 'cntrlgen'
+INFO: [VRFC 10-3107] analyzing entity 'cntrlgen2'
+INFO: [VRFC 10-3107] analyzing entity 'ppGenR8'
+INFO: [VRFC 10-3107] analyzing entity 'ppGenR8Msb2'
+INFO: [VRFC 10-3107] analyzing entity 'addSubShGW'
+INFO: [VRFC 10-3107] analyzing entity 'addSubShFW'
+INFO: [VRFC 10-3107] analyzing entity 'vmRoundW'
+INFO: [VRFC 10-3107] analyzing entity 'vmsMultCore'
+INFO: [VRFC 10-3107] analyzing entity 'wideEmbedMult4'
+INFO: [VRFC 10-3107] analyzing entity 'wideEmbedMult16'
+INFO: [VRFC 10-3107] analyzing entity 'wideEmbedMult'
+INFO: [VRFC 10-3107] analyzing entity 'dsp48MultALine'
+INFO: [VRFC 10-3107] analyzing entity 'dsp48Mult'
+INFO: [VRFC 10-3107] analyzing entity 'xMult'
+INFO: [VRFC 10-3107] analyzing entity 'delay'
+INFO: [VRFC 10-3107] analyzing entity 'delay_s'
+INFO: [VRFC 10-3107] analyzing entity 'mux_bus2'
+INFO: [VRFC 10-3107] analyzing entity 'twos_comp'
+INFO: [VRFC 10-3107] analyzing entity 'carry_chain'
+INFO: [VRFC 10-3107] analyzing entity 'mux4'
+INFO: [VRFC 10-3107] analyzing entity 'compare_gt'
+INFO: [VRFC 10-3107] analyzing entity 'compare_eq_im'
+INFO: [VRFC 10-3107] analyzing entity 'compare_ne_im'
+INFO: [VRFC 10-3107] analyzing entity 'compare_eq'
+INFO: [VRFC 10-3107] analyzing entity 'compare'
+INFO: [VRFC 10-3107] analyzing entity 'special_detect'
+INFO: [VRFC 10-3107] analyzing entity 'norm_zero_det'
+INFO: [VRFC 10-3107] analyzing entity 'zero_det_sel'
+INFO: [VRFC 10-3107] analyzing entity 'shift_msb_first'
+INFO: [VRFC 10-3107] analyzing entity 'flt_dec_op'
+INFO: [VRFC 10-3107] analyzing entity 'flt_dec_op_lat'
+INFO: [VRFC 10-3107] analyzing entity 'lead_zero_encode'
+INFO: [VRFC 10-3107] analyzing entity 'lead_zero_encode_shift'
+INFO: [VRFC 10-3107] analyzing entity 'dsp48e1_wrapper'
+INFO: [VRFC 10-3107] analyzing entity 'dsp48e2_wrapper'
+INFO: [VRFC 10-3107] analyzing entity 'addsub_logic'
+INFO: [VRFC 10-3107] analyzing entity 'addsub_dsp'
+INFO: [VRFC 10-3107] analyzing entity 'addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_round_bit'
+INFO: [VRFC 10-3107] analyzing entity 'renorm_and_round_logic'
+INFO: [VRFC 10-3107] analyzing entity 'norm_and_round_dsp48e1_sgl'
+INFO: [VRFC 10-3107] analyzing entity 'norm_and_round_logic'
+INFO: [VRFC 10-3107] analyzing entity 'alignment'
+INFO: [VRFC 10-3107] analyzing entity 'normalize'
+INFO: [VRFC 10-3107] analyzing entity 'align_add_dsp48e1_sgl'
+INFO: [VRFC 10-3107] analyzing entity 'align_add'
+INFO: [VRFC 10-3107] analyzing entity 'multadd'
+INFO: [VRFC 10-3107] analyzing entity 'compare_ge'
+INFO: [VRFC 10-3107] analyzing entity 'fix_to_flt_conv_exp'
+INFO: [VRFC 10-3107] analyzing entity 'fix_to_flt_conv'
+INFO: [VRFC 10-3107] analyzing entity 'flt_to_fix_conv'
+INFO: [VRFC 10-3107] analyzing entity 'flt_to_flt_conv_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_to_flt_conv'
+INFO: [VRFC 10-3107] analyzing entity 'fp_cmp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_sqrt_mant_addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_sqrt_mant'
+INFO: [VRFC 10-3107] analyzing entity 'flt_sqrt_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_sqrt'
+INFO: [VRFC 10-3107] analyzing entity 'flt_div_mant_addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_div_mant'
+INFO: [VRFC 10-3107] analyzing entity 'flt_div_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_div'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_dsp48e1_lat_dbl'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_dsp48e1_sgl'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_dsp48e1_dbl'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_dsp48e2_dbl'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_qq'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult_xx'
+INFO: [VRFC 10-3107] analyzing entity 'fix_mult'
+INFO: [VRFC 10-3107] analyzing entity 'flt_round_dsp_opt_full'
+INFO: [VRFC 10-3107] analyzing entity 'flt_round_dsp_opt_part'
+INFO: [VRFC 10-3107] analyzing entity 'flt_mult_round'
+INFO: [VRFC 10-3107] analyzing entity 'flt_mult_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_mult'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_logic'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_dsp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_lat_align_add'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_lat_norm'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_lat_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add_lat'
+INFO: [VRFC 10-3107] analyzing entity 'flt_add'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_approx'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_nr'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_reduction_calc'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_eval'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_postprocess'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_specialcase'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip_recomb'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recipsqrt_dp_m_calc'
+INFO: [VRFC 10-3107] analyzing entity 'flt_recip'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_addsub_taylor_fabric'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_addsub_taylor_combiner_fabric'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_single_one_detect'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_inproc'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_L_block_memory'
+INFO: [VRFC 10-3107] analyzing entity 'flt_pt_log_L_block'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_rr_mul_iter'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_rr_mul'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_rr'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_taylor'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_shift_msb_first'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_lead_zero_encode'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_normalize'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_norm'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_rnd'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_specialcase'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log_recomb'
+INFO: [VRFC 10-3107] analyzing entity 'flt_log'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_specialcase'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_recomb'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_ccm'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_e2A'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_dp_poly'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp_e2zmzm1'
+INFO: [VRFC 10-3107] analyzing entity 'flt_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_specialcase'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_round_bit'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_renorm_and_round_logic'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_special_detect'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_add_exp'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_alignment'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_addsub_dsp1'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_addsub_dsp2'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_addsub'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_align_add'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_norm_logic'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_add_logic'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_add'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma_mul'
+INFO: [VRFC 10-3107] analyzing entity 'flt_fma'
+INFO: [VRFC 10-3107] analyzing entity 'flt_accum_flt_to_fix'
+INFO: [VRFC 10-3107] analyzing entity 'flt_accum_bit_encode'
+INFO: [VRFC 10-3107] analyzing entity 'flt_accum'
+INFO: [VRFC 10-3107] analyzing entity 'floating_point_v7_0_18_viv'
+INFO: [VRFC 10-3107] analyzing entity 'floating_point_v7_0_18'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd" into library xbip_dsp48_mult_v3_0_6
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_mult_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_mult_synth'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_mult_v3_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_mult_v3_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd" into library xbip_dsp48_multadd_v3_0_6
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_multadd_rtl'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_multadd_synth'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_multadd_v3_0_6_viv'
+INFO: [VRFC 10-3107] analyzing entity 'xbip_dsp48_multadd_v3_0_6'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.ip_user_files/ipstatic/hdl/div_gen_v5_1_vh_rfs.vhd" into library div_gen_v5_1_17
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_lut6'
+INFO: [VRFC 10-3107] analyzing entity 'c_addsub_viv'
+INFO: [VRFC 10-3107] analyzing entity 'c_twos_comp_viv'
+INFO: [VRFC 10-3107] analyzing entity 'cmp2s_v'
+INFO: [VRFC 10-3107] analyzing entity 'addsubreg_v'
+INFO: [VRFC 10-3107] analyzing entity 'dividervdc_v'
+INFO: [VRFC 10-3107] analyzing entity 'div_lutmult'
+INFO: [VRFC 10-3107] analyzing entity 'bip_sdivider_synth'
+INFO: [VRFC 10-3107] analyzing entity 'fixed_to_float'
+INFO: [VRFC 10-3107] analyzing entity 'flow_ctrl'
+INFO: [VRFC 10-3107] analyzing entity 'estimator'
+INFO: [VRFC 10-3107] analyzing entity 'prescaler'
+INFO: [VRFC 10-3107] analyzing entity 'prenormalizer'
+INFO: [VRFC 10-3107] analyzing entity 'iterative_unit'
+INFO: [VRFC 10-3107] analyzing entity 'quot_addsub'
+INFO: [VRFC 10-3107] analyzing entity 'quotient_collector'
+INFO: [VRFC 10-3107] analyzing entity 'hrdiv_viv'
+INFO: [VRFC 10-3107] analyzing entity 'div_gen_synth'
+INFO: [VRFC 10-3107] analyzing entity 'div_gen_v5_1_17_viv'
+INFO: [VRFC 10-3107] analyzing entity 'div_gen_v5_1_17'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.gen/sources_1/ip/divider/sim/divider.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'divider'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/yilel/Desktop/Exp6/Exp6.gen/sources_1/ip/multiplier/sim/multiplier.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'multiplier'
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:13 . Memory (MB): peak = 1163.980 ; gain = 0.000
+INFO: [USF-XSim-69] 'compile' step finished in '14' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/yilel/Desktop/Exp6/Exp6.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L xbip_pipe_v3_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_16 -L floating_point_v7_0_18 -L xbip_dsp48_mult_v3_0_6 -L xbip_dsp48_multadd_v3_0_6 -L div_gen_v5_1_17 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_behav xil_defaultlib.sim_top xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L xbip_utils_v3_0_10 -L axi_utils_v2_0_6 -L xbip_pipe_v3_0_6 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_6 -L xbip_bram18k_v3_0_6 -L mult_gen_v12_0_16 -L floating_point_v7_0_18 -L xbip_dsp48_mult_v3_0_6 -L xbip_dsp48_multadd_v3_0_6 -L div_gen_v5_1_17 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_top_behav xil_defaultlib.sim_top xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package mult_gen_v12_0_16.mult_gen_v12_0_16_viv_comp
+Compiling package xbip_utils_v3_0_10.xbip_utils_v3_0_10_pkg
+Compiling package mult_gen_v12_0_16.mult_gen_v12_0_16_pkg
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_signed
+Compiling package unisim.vcomponents
+Compiling package mult_gen_v12_0_16.dsp_pkg
+Compiling package ieee.vital_timing
+Compiling package ieee.vital_primitives
+Compiling package unisim.vpkg
+Compiling package div_gen_v5_1_17.div_gen_v5_1_17_viv_comp
+Compiling package xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv_comp
+Compiling package axi_utils_v2_0_6.axi_utils_v2_0_6_pkg
+Compiling package ieee.math_real
+Compiling package axi_utils_v2_0_6.global_util_pkg
+Compiling package axi_utils_v2_0_6.axi_utils_comps
+Compiling package ieee.std_logic_unsigned
+Compiling package xbip_bram18k_v3_0_6.xbip_bram18k_v3_0_6_pkg
+Compiling package div_gen_v5_1_17.div_gen_pkg
+Compiling package div_gen_v5_1_17.pkg_addsub
+Compiling module unisims_ver.IBUFDS
+Compiling module unisims_ver.IBUFGDS
+Compiling module xil_defaultlib.clk_diff
+Compiling module unisims_ver.MMCME2_ADV(CLKIN1_PERIOD=5.0,CLK...
+Compiling module unisims_ver.BUFG
+Compiling module xil_defaultlib.my_clk_gen
+Compiling module xil_defaultlib.btn_scan(CLK_FREQ=25)
+Compiling module xil_defaultlib.parallel2serial(P_CLK_FREQ=25,S_...
+Compiling module xil_defaultlib.parallel2serial(P_CLK_FREQ=25,S_...
+Compiling module xil_defaultlib.display_default
+Compiling module xil_defaultlib.debug_clk
+Compiling module xil_defaultlib.REG32
+Compiling module xil_defaultlib.add_32
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.ROM_D
+Compiling module xil_defaultlib.REG_IF_IS
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.CtrlUnit
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.FU_ALU
+Compiling module xil_defaultlib.RAM_B
+Compiling module xil_defaultlib.FU_mem
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture srl16e_v of entity unisim.SRL16E [\SRL16E(0,15)\]
+Compiling architecture fdre_v of entity unisim.FDRE [fdre_default]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(alumodereg=0,carryinreg...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(a_input="CASCADE",bcasc...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,areg=2,bcasc...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture dsp48e1_v of entity unisim.DSP48E1 [\DSP48E1(acascreg=2,areg=2,a_inp...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.delay_line [\delay_line(c_xdevicefamily="kin...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.op_resize [\op_resize(ai_width=32,bi_width=...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.dsp [\dsp(c_xdevicefamily="kintex7",c...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16_viv [\mult_gen_v12_0_16_viv(c_verbosi...]
+Compiling architecture xilinx of entity mult_gen_v12_0_16.mult_gen_v12_0_16 [\mult_gen_v12_0_16(c_xdevicefami...]
+Compiling architecture multiplier_arch of entity xil_defaultlib.multiplier [multiplier_default]
+Compiling module xil_defaultlib.FU_mul
+Compiling architecture synth of entity div_gen_v5_1_17.c_twos_comp_viv [\c_twos_comp_viv(c_width=32,c_ai...]
+Compiling architecture virtex of entity div_gen_v5_1_17.cmp2s_v [\cmp2s_v(c_bus_width=32,c_regist...]
+Compiling architecture synth of entity div_gen_v5_1_17.c_twos_comp_viv [\c_twos_comp_viv(c_width=32,c_ai...]
+Compiling architecture virtex of entity div_gen_v5_1_17.cmp2s_v [\cmp2s_v(c_bus_width=32,c_ainit_...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture muxcy_v of entity unisim.MUXCY [muxcy_default]
+Compiling architecture xorcy_v of entity unisim.XORCY [xorcy_default]
+Compiling architecture rtl of entity div_gen_v5_1_17.c_addsub_lut6 [\c_addsub_lut6(c_width=33,c_add_...]
+Compiling architecture synth of entity div_gen_v5_1_17.c_addsub_viv [\c_addsub_viv(c_a_width=33,c_b_w...]
+Compiling architecture virtex of entity div_gen_v5_1_17.addsubreg_v [\addsubreg_v(c_bus_width=33,c_ai...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture rtl of entity div_gen_v5_1_17.c_addsub_lut6 [\c_addsub_lut6(c_width=33,c_add_...]
+Compiling architecture synth of entity div_gen_v5_1_17.c_addsub_viv [\c_addsub_viv(c_a_width=33,c_b_w...]
+Compiling architecture virtex of entity div_gen_v5_1_17.addsubreg_v [\addsubreg_v(c_bus_width=33,c_ha...]
+Compiling architecture virtex of entity div_gen_v5_1_17.dividervdc_v [\dividervdc_v(bus_num=32,bus_div...]
+Compiling architecture synth of entity div_gen_v5_1_17.c_twos_comp_viv [\c_twos_comp_viv(c_width=33,c_ai...]
+Compiling architecture virtex of entity div_gen_v5_1_17.cmp2s_v [\cmp2s_v(c_bus_width=33,c_regist...]
+Compiling architecture synth of entity div_gen_v5_1_17.bip_sdivider_synth [\bip_sdivider_synth(c_xdevicefam...]
+Compiling architecture synth of entity div_gen_v5_1_17.div_gen_synth [\div_gen_synth(c_xdevicefamily="...]
+Compiling architecture synth of entity xbip_pipe_v3_0_6.xbip_pipe_v3_0_6_viv [\xbip_pipe_v3_0_6_viv(c_latency=...]
+Compiling architecture synth of entity div_gen_v5_1_17.div_gen_v5_1_17_viv [\div_gen_v5_1_17_viv(c_xdevicefa...]
+Compiling architecture xilinx of entity div_gen_v5_1_17.div_gen_v5_1_17 [\div_gen_v5_1_17(c_xdevicefamily...]
+Compiling architecture divider_arch of entity xil_defaultlib.divider [divider_default]
+Compiling module xil_defaultlib.FU_div
+Compiling module xil_defaultlib.cmp_32
+Compiling module xil_defaultlib.FU_jump
+Compiling module xil_defaultlib.MUX8T1_32
+Compiling module xil_defaultlib.RV32core
+Compiling module xil_defaultlib.Code2Inst
+Compiling module unisims_ver.RB18_INTERNAL_VLOG(READ_WIDTH_A=...
+Compiling module unisims_ver.RAMB18E1(INIT_00=256'b0111111010...
+Compiling module unisims_ver.RAMB16_S1(INIT_00=256'b011111101...
+Compiling module xil_defaultlib.FONT8_16
+Compiling module xil_defaultlib.vga
+Compiling module xil_defaultlib.VGA_TESTP
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.sim_top
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_top_behav
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:16 . Memory (MB): peak = 1168.172 ; gain = 4.191
+INFO: [USF-XSim-69] 'elaborate' step finished in '15' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/yilel/Desktop/Exp6/Exp6.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "sim_top_behav -key {Behavioral:sim_1:Functional:sim_top} -tclbatch {sim_top.tcl} -view {C:/Users/yilel/Desktop/Exp6/code/sim/sim_top_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Time resolution is 1 ps
+open_wave_config C:/Users/yilel/Desktop/Exp6/code/sim/sim_top_behav.wcfg
+source sim_top.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 50000ns
+Warning: [Unisim MMCME2_ADV-20] Input CLKIN1 period and attribute CLKIN1_PERIOD are not same. Instance sim_top.uut.CLK_GEN.mmcm_adv_inst 
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'sim_top_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 50000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:35 . Memory (MB): peak = 1268.141 ; gain = 104.160
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar  2 23:17:35 2023...

@@ -1,0 +1,25 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/49530/Desktop/myExp1/Exp1.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/49530/Desktop/myExp1/code/auxillary/CPUTEST.v,1630131861,verilog,,C:/Users/49530/Desktop/myExp1/code/core/CtrlUnit.v,,CPUTEST,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/auxillary/debug_clk.v,1628262876,verilog,,C:/Users/49530/Desktop/myExp1/code/sim/core_sim.v,,debug_clk,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/common/MUX2T1_32.v,1630067329,verilog,,C:/Users/49530/Desktop/myExp1/code/common/MUX4T1_32.v,,MUX2T1_32,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/common/MUX4T1_32.v,1628301716,verilog,,C:/Users/49530/Desktop/myExp1/code/core/RAM_B.v,,MUX4T1_32,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/common/REG32.v,1630067336,verilog,,C:/Users/49530/Desktop/myExp1/code/core/REG_EX_MEM.v,,REG32,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/common/add_32.v,1630067343,verilog,,C:/Users/49530/Desktop/myExp1/code/common/cmp_32.v,,add_32,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/common/cmp_32.v,1663675269,verilog,,C:/Users/49530/Desktop/myExp1/code/auxillary/debug_clk.v,,cmp_32,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/core/ALU.v,1628301567,verilog,,C:/Users/49530/Desktop/myExp1/code/auxillary/CPUTEST.v,,ALU,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/core/CtrlUnit.v,1665401003,verilog,,C:/Users/49530/Desktop/myExp1/code/core/HazardDetectionUnit.v,,CtrlUnit,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/core/HazardDetectionUnit.v,1665475097,verilog,,C:/Users/49530/Desktop/myExp1/code/core/ImmGen.v,,HazardDetectionUnit,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/core/ImmGen.v,1630067356,verilog,,C:/Users/49530/Desktop/myExp1/code/common/MUX2T1_32.v,,ImmGen,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/core/RAM_B.v,1629983726,verilog,,C:/Users/49530/Desktop/myExp1/code/common/REG32.v,,RAM_B,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/core/REG_EX_MEM.v,1629996003,verilog,,C:/Users/49530/Desktop/myExp1/code/core/REG_ID_EX.v,,REG_EX_MEM,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/core/REG_ID_EX.v,1629996012,verilog,,C:/Users/49530/Desktop/myExp1/code/core/REG_IF_ID.v,,REG_ID_EX,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/core/REG_IF_ID.v,1629996023,verilog,,C:/Users/49530/Desktop/myExp1/code/core/REG_MEM_WB.v,,REG_IF_ID,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/core/REG_MEM_WB.v,1629996041,verilog,,C:/Users/49530/Desktop/myExp1/code/core/ROM_D.v,,REG_MEM_WB,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/core/ROM_D.v,1663673311,verilog,,C:/Users/49530/Desktop/myExp1/code/core/RV32core.v,,ROM_D,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/core/RV32core.v,1664261843,verilog,,C:/Users/49530/Desktop/myExp1/code/core/Regs.v,,RV32core,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/core/Regs.v,1629993973,verilog,,C:/Users/49530/Desktop/myExp1/code/common/add_32.v,,Regs,,,../../../../code/auxillary,,,,,
+C:/Users/49530/Desktop/myExp1/code/sim/core_sim.v,1629997904,verilog,,,,core_sim,,,../../../../code/auxillary,,,,,

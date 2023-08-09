@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/yilel/Desktop/myExp4/Exp4/Exp4.sim/sim_1/behav/xsim/glbl.v,1529022456,verilog,,,,glbl,,,,,,,,
+C:/Users/yilel/Desktop/myExp4/Exp4/code/cache/addr_define.vh,1630841754,verilog,,,,,,,,,,,,
+C:/Users/yilel/Desktop/myExp4/Exp4/code/cache/cache.v,1668144531,verilog,,C:/Users/yilel/Desktop/myExp4/Exp4/code/cache/cmu.v,C:/Users/yilel/Desktop/myExp4/Exp4/code/cache/addr_define.vh,cache,,,../../../../code/auxillary;../../../../code/cache,,,,,
+C:/Users/yilel/Desktop/myExp4/Exp4/code/cache/cmu.v,1668147827,verilog,,C:/Users/yilel/Desktop/myExp4/Exp4/code/cache/sim/cmu_sim.v,C:/Users/yilel/Desktop/myExp4/Exp4/code/cache/addr_define.vh,cmu,,,../../../../code/auxillary;../../../../code/cache,,,,,
+C:/Users/yilel/Desktop/myExp4/Exp4/code/cache/sim/cmu_sim.v,1630842842,verilog,,C:/Users/yilel/Desktop/myExp4/Exp4/code/cache/sim/data_ram.v,,cmu_sim,,,../../../../code/auxillary;../../../../code/cache,,,,,
+C:/Users/yilel/Desktop/myExp4/Exp4/code/cache/sim/data_ram.v,1630308264,verilog,,C:/Users/yilel/Desktop/myExp4/Exp4/code/cache/sim/inst.v,,data_ram,,,../../../../code/auxillary;../../../../code/cache,,,,,
+C:/Users/yilel/Desktop/myExp4/Exp4/code/cache/sim/inst.v,1628581610,verilog,,C:/Users/yilel/Desktop/myExp4/Exp4/code/cache/sim/sim_top.v,,inst,,,../../../../code/auxillary;../../../../code/cache,,,,,
+C:/Users/yilel/Desktop/myExp4/Exp4/code/cache/sim/sim_top.v,1630842834,verilog,,,,sim_top,,,../../../../code/auxillary;../../../../code/cache,,,,,

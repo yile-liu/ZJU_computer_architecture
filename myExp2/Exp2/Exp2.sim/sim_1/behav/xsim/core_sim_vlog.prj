@@ -1,0 +1,30 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../code/auxillary" \
+"../../../../code/core/ALU.v" \
+"../../../../code/auxillary/CPUTEST.v" \
+"../../../../code/core/CSRRegs.v" \
+"../../../../code/core/CtrlUnit.v" \
+"../../../../code/core/ExceptionUnit.v" \
+"../../../../code/core/HazardDetectionUnit.v" \
+"../../../../code/core/ImmGen.v" \
+"../../../../code/common/MUX2T1_32.v" \
+"../../../../code/common/MUX4T1_32.v" \
+"../../../../code/core/RAM_B.v" \
+"../../../../code/common/REG32.v" \
+"../../../../code/core/REG_EX_MEM.v" \
+"../../../../code/core/REG_ID_EX.v" \
+"../../../../code/core/REG_IF_ID.v" \
+"../../../../code/core/REG_MEM_WB.v" \
+"../../../../code/core/ROM_D.v" \
+"../../../../code/core/RV32core.v" \
+"../../../../code/core/Regs.v" \
+"../../../../code/common/add_32.v" \
+"../../../../code/common/cmp_32.v" \
+"../../../../code/auxillary/debug_clk.v" \
+"../../../../code/sim/core_sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,40 @@
+# compile vhdl design source files
+vhdl xbip_utils_v3_0_9  \
+"../../../../Exp5.ip_user_files/ipstatic/hdl/xbip_utils_v3_0_vh_rfs.vhd" \
+
+vhdl axi_utils_v2_0_5  \
+"../../../../Exp5.ip_user_files/ipstatic/hdl/axi_utils_v2_0_vh_rfs.vhd" \
+
+vhdl xbip_pipe_v3_0_5  \
+"../../../../Exp5.ip_user_files/ipstatic/hdl/xbip_pipe_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_dsp48_wrapper_v3_0_4  \
+"../../../../Exp5.ip_user_files/ipstatic/hdl/xbip_dsp48_wrapper_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_dsp48_addsub_v3_0_5  \
+"../../../../Exp5.ip_user_files/ipstatic/hdl/xbip_dsp48_addsub_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_bram18k_v3_0_5  \
+"../../../../Exp5.ip_user_files/ipstatic/hdl/xbip_bram18k_v3_0_vh_rfs.vhd" \
+
+vhdl mult_gen_v12_0_14  \
+"../../../../Exp5.ip_user_files/ipstatic/hdl/mult_gen_v12_0_vh_rfs.vhd" \
+
+vhdl floating_point_v7_0_15  \
+"../../../../Exp5.ip_user_files/ipstatic/hdl/floating_point_v7_0_vh_rfs.vhd" \
+
+vhdl xbip_dsp48_mult_v3_0_5  \
+"../../../../Exp5.ip_user_files/ipstatic/hdl/xbip_dsp48_mult_v3_0_vh_rfs.vhd" \
+
+vhdl xbip_dsp48_multadd_v3_0_5  \
+"../../../../Exp5.ip_user_files/ipstatic/hdl/xbip_dsp48_multadd_v3_0_vh_rfs.vhd" \
+
+vhdl div_gen_v5_1_13  \
+"../../../../Exp5.ip_user_files/ipstatic/hdl/div_gen_v5_1_vh_rfs.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../Exp5.gen/sources_1/ip/divider/sim/divider.vhd" \
+"../../../../Exp5.gen/sources_1/ip/multiplier/sim/multiplier.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,65 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Tue Oct 12 14:09:04 2021
+# Process ID: 9772
+# Current directory: D:/Arch_Work/exp2/Exp2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10352 D:\Arch_Work\exp2\Exp2\Exp2.xpr
+# Log file: D:/Arch_Work/exp2/Exp2/vivado.log
+# Journal file: D:/Arch_Work/exp2/Exp2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Arch_Work/exp2/Exp2/Exp2.xpr
+launch_simulation
+open_wave_config D:/Arch_Work/exp2/Exp2/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+close_sim
+launch_simulation
+open_wave_config D:/Arch_Work/exp2/Exp2/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close_sim
+launch_simulation
+open_wave_config D:/Arch_Work/exp2/Exp2/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/exp_unit/qwq}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/exp_unit/wqw}} 
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/exp_unit/mstatus}} 
+relaunch_sim
+save_wave_config {D:/Arch_Work/exp2/Exp2/code/sim/core_sim_behav.wcfg}
+close_sim
+launch_simulation
+launch_simulation
+open_wave_config D:/Arch_Work/exp2/Exp2/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+close_sim
+launch_simulation
+open_wave_config D:/Arch_Work/exp2/Exp2/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/exp_unit/qwq1}} {{/core_sim/core/exp_unit/qwq2}} {{/core_sim/core/exp_unit/qwq3}} {{/core_sim/core/exp_unit/qwq4}} {{/core_sim/core/exp_unit/qwq5}} {{/core_sim/core/exp_unit/wqw}} 
+save_wave_config {D:/Arch_Work/exp2/Exp2/code/sim/core_sim_behav.wcfg}
+relaunch_sim
+close_sim
+launch_simulation
+open_wave_config D:/Arch_Work/exp2/Exp2/code/sim/core_sim_behav.wcfg
+source core_sim.tcl
+current_wave_config {core_sim_behav.wcfg}
+add_wave {{/core_sim/core/exp_unit/PC_redirect}} 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+save_wave_config {D:/Arch_Work/exp2/Exp2/code/sim/core_sim_behav.wcfg}
+close_sim

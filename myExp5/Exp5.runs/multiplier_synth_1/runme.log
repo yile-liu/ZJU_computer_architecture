@@ -1,0 +1,23 @@
+
+*** Running vivado
+    with args -log multiplier.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source multiplier.tcl
+
+
+
+****** Vivado v2022.2 (64-bit)
+  **** SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+  **** IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+
+source multiplier.tcl -notrace
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:08 . Memory (MB): peak = 388.672 ; gain = 64.523
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: multiplier
+INFO: [IP_Flow 19-6922] IPCACHE: Exporting cached entry d95c82474f911d0e to dir: F:/myExp5/Exp5.runs/multiplier_synth_1
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/myExp5/Exp5.cache/ip/2022.2/d/9/d95c82474f911d0e/multiplier.dcp to F:/myExp5/Exp5.runs/multiplier_synth_1/multiplier.dcp.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/myExp5/Exp5.cache/ip/2022.2/d/9/d95c82474f911d0e/multiplier_sim_netlist.v to F:/myExp5/Exp5.runs/multiplier_synth_1/multiplier_sim_netlist.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/myExp5/Exp5.cache/ip/2022.2/d/9/d95c82474f911d0e/multiplier_sim_netlist.vhdl to F:/myExp5/Exp5.runs/multiplier_synth_1/multiplier_sim_netlist.vhdl.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/myExp5/Exp5.cache/ip/2022.2/d/9/d95c82474f911d0e/multiplier_stub.v to F:/myExp5/Exp5.runs/multiplier_synth_1/multiplier_stub.v.
+INFO: [IP_Flow 19-6928] IPCACHE: copied cached file f:/myExp5/Exp5.cache/ip/2022.2/d/9/d95c82474f911d0e/multiplier_stub.vhdl to F:/myExp5/Exp5.runs/multiplier_synth_1/multiplier_stub.vhdl.
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP multiplier, cache-ID = d95c82474f911d0e.
+config_ip_cache: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 422.332 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Mar  6 15:46:33 2023...

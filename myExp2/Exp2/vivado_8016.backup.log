@@ -1,0 +1,154 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Tue Oct 12 17:43:02 2021
+# Process ID: 8016
+# Current directory: F:/CA_vivado/exp2/Exp2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3200 F:\CA_vivado\exp2\Exp2\Exp2.xpr
+# Log file: F:/CA_vivado/exp2/Exp2/vivado.log
+# Journal file: F:/CA_vivado/exp2/Exp2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/CA_vivado/exp2/Exp2/Exp2.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Arch_Work/exp2/Exp2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [Project 1-230] Project 'Exp2.xpr' upgraded for this version of Vivado.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'F:/vivado2020.2/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:06 . Memory (MB): peak = 1091.926 ; gain = 0.000
+update_compile_order -fileset sources_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'F:/CA_vivado/exp2/Exp2/Exp2.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'core_sim' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'F:/CA_vivado/exp2/Exp2/Exp2.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj core_sim_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/core/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/auxillary/CPUTEST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPUTEST
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/core/CSRRegs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSRRegs
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/core/CtrlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CtrlUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/core/ExceptionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ExceptionUnit
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [F:/CA_vivado/exp2/Exp2/code/core/ExceptionUnit.v:115]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [F:/CA_vivado/exp2/Exp2/code/core/ExceptionUnit.v:126]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/core/HazardDetectionUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardDetectionUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/core/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/common/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/common/MUX4T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX4T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/core/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/common/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/core/REG_EX_MEM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_EX_MEM
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/core/REG_ID_EX.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_ID_EX
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/core/REG_IF_ID.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_IF_ID
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/core/REG_MEM_WB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_MEM_WB
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/core/ROM_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/core/RV32core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32core
+INFO: [VRFC 10-2458] undeclared symbol Addr, assumed default net type wire [F:/CA_vivado/exp2/Exp2/code/core/RV32core.v:229]
+INFO: [VRFC 10-2458] undeclared symbol MWR, assumed default net type wire [F:/CA_vivado/exp2/Exp2/code/core/RV32core.v:230]
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/core/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/common/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/common/cmp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/auxillary/debug_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debug_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/code/sim/core_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module core_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/CA_vivado/exp2/Exp2/Exp2.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'F:/CA_vivado/exp2/Exp2/Exp2.sim/sim_1/behav/xsim'
+"xelab -wto bd08de18f65a4fff898ed77aa59a84cb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot core_sim_behav xil_defaultlib.core_sim xil_defaultlib.glbl -log elaborate.log"
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: F:/vivado2020.2/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto bd08de18f65a4fff898ed77aa59a84cb --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot core_sim_behav xil_defaultlib.core_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'PCSource' [F:/CA_vivado/exp2/Exp2/code/core/RV32core.v:216]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 32 for port 'Addr' [F:/CA_vivado/exp2/Exp2/code/core/RV32core.v:229]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 2 for port 'DatatoReg' [F:/CA_vivado/exp2/Exp2/code/core/RV32core.v:233]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [F:/CA_vivado/exp2/Exp2/code/core/ExceptionUnit.v:115]
+WARNING: [VRFC 10-526] concatenation with unsized literal; will interpret as 32 bits [F:/CA_vivado/exp2/Exp2/code/core/ExceptionUnit.v:126]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.debug_clk
+Compiling module xil_defaultlib.REG32
+Compiling module xil_defaultlib.add_32
+Compiling module xil_defaultlib.MUX2T1_32
+Compiling module xil_defaultlib.ROM_D
+Compiling module xil_defaultlib.REG_IF_ID
+Compiling module xil_defaultlib.CtrlUnit
+Compiling module xil_defaultlib.Regs
+Compiling module xil_defaultlib.ImmGen
+Compiling module xil_defaultlib.MUX4T1_32
+Compiling module xil_defaultlib.cmp_32
+Compiling module xil_defaultlib.HazardDetectionUnit
+Compiling module xil_defaultlib.REG_ID_EX
+Compiling module xil_defaultlib.ALU
+Compiling module xil_defaultlib.REG_EX_MEM
+Compiling module xil_defaultlib.RAM_B
+Compiling module xil_defaultlib.CSRRegs
+Compiling module xil_defaultlib.ExceptionUnit
+Compiling module xil_defaultlib.REG_MEM_WB
+Compiling module xil_defaultlib.CPUTEST
+Compiling module xil_defaultlib.RV32core
+Compiling module xil_defaultlib.core_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot core_sim_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'F:/CA_vivado/exp2/Exp2/Exp2.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "core_sim_behav -key {Behavioral:sim_1:Functional:core_sim} -tclbatch {core_sim.tcl} -view {F:/CA_vivado/exp2/Exp2/code/sim/core_sim_behav.wcfg} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+open_wave_config F:/CA_vivado/exp2/Exp2/code/sim/core_sim_behav.wcfg
+WARNING: Simulation object /core_sim/core/exp_unit/wqw was not found in the design.
+source core_sim.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+xsim: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1091.926 ; gain = 0.000
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'core_sim_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 1091.926 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Oct 12 17:45:46 2021...

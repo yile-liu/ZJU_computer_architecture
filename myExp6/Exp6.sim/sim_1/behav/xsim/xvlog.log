@@ -1,0 +1,63 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/Code2Inst.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Code2Inst
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/CtrlUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CtrlUnit
+WARNING: [VRFC 10-3380] identifier 'use_FU' is used before its declaration [C:/Users/yilel/Desktop/Exp6/code/core/CtrlUnit.v:165]
+WARNING: [VRFC 10-3380] identifier 'use_FU' is used before its declaration [C:/Users/yilel/Desktop/Exp6/code/core/CtrlUnit.v:176]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_div.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_div
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_jump.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_jump
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_mem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_mem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/FU_mul.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FU_mul
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/Font816.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FONT8_16
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/ImmGen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ImmGen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/MUX2T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX2T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/MUX8T1_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MUX8T1_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/RAM_B.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM_B
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/REG32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/REG_IF_IS.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module REG_IF_IS
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/ROM_D.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM_D
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/RV32core.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RV32core
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/core/Regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/VGATEST.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module VGA_TESTP
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/add_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module add_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/btn_scan.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module btn_scan
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/clk_diff.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_diff
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/common/cmp_32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cmp_32
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/debug_clk.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module debug_clk
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/my_clk_gen.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module my_clk_gen
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/parallel2serial.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module parallel2serial
+WARNING: [VRFC 10-3380] identifier 'DATA_BITS' is used before its declaration [C:/Users/yilel/Desktop/Exp6/code/auxillary/parallel2serial.v:10]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/auxillary/vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/code/sim/sim_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sim_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/Exp6/Exp6.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

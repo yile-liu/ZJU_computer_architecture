@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+C:/Users/yilel/Desktop/myExp3/Exp3/Exp3.sim/sim_1/behav/xsim/glbl.v,1529022455,verilog,,,,glbl,,,,,,,,
+C:/Users/yilel/Desktop/myExp3/Exp3/code/addr_define.vh,1630841752,verilog,,,,,,,,,,,,
+C:/Users/yilel/Desktop/myExp3/Exp3/code/cache.v,1668144597,verilog,,C:/Users/yilel/Desktop/myExp3/Exp3/code/sim/cache_sim.v,C:/Users/yilel/Desktop/myExp3/Exp3/code/addr_define.vh,cache,,,../../../../code,,,,,
+C:/Users/yilel/Desktop/myExp3/Exp3/code/sim/cache_sim.v,1628584874,verilog,,,,cache_sim,,,../../../../code,,,,,

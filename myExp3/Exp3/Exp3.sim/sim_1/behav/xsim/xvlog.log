@@ -1,0 +1,8 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/myExp3/Exp3/code/cache.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache
+WARNING: [VRFC 10-3380] identifier 'ADDR_BITS' is used before its declaration [C:/Users/yilel/Desktop/myExp3/Exp3/code/cache.v:8]
+WARNING: [VRFC 10-3380] identifier 'TAG_BITS' is used before its declaration [C:/Users/yilel/Desktop/myExp3/Exp3/code/cache.v:20]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/myExp3/Exp3/code/sim/cache_sim.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cache_sim
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/yilel/Desktop/myExp3/Exp3/Exp3.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

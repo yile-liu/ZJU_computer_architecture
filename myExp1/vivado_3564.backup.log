@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Sep 20 13:27:30 2022
+# Process ID: 3564
+# Current directory: C:/Users/49530/Desktop/Exp1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19252 C:\Users\49530\Desktop\Exp1\Exp1.xpr
+# Log file: C:/Users/49530/Desktop/Exp1/vivado.log
+# Journal file: C:/Users/49530/Desktop/Exp1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 20 13:28:02 2022...
